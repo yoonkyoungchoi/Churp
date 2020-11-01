@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Mainmenu extends AppCompatActivity {
+public class MainMenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class Mainmenu extends AppCompatActivity {
         koreafood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class Mainmenu extends AppCompatActivity {
         분식.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -36,7 +36,7 @@ public class Mainmenu extends AppCompatActivity {
         매운.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class Mainmenu extends AppCompatActivity {
         안주.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class Mainmenu extends AppCompatActivity {
         간식.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -63,7 +63,7 @@ public class Mainmenu extends AppCompatActivity {
         반주.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
@@ -72,7 +72,7 @@ public class Mainmenu extends AppCompatActivity {
         해장.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Choice_people.class);
+                Intent intent = new Intent(getApplicationContext(), ChoicePeopleActivity.class);
                 startActivity(intent);
             }
         });
