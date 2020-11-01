@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = null;
         switch (v.getId()) {
             case R.id.choicebtn :
-                intent = new Intent(this, ChoicePeopleActivity.class);
+                intent = new Intent(this, MainMenuActivity.class);
                 startActivity(intent);
         }
     }
