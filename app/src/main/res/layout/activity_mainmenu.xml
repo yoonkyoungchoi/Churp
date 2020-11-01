@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmenu">
+
+    <Button
+        android:id="@+id/한식"
+        android:layout_width="162dp"
+        android:layout_height="36dp"
+        android:background="@drawable/button_round_orange"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#한식"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/분식"
+        android:layout_width="124dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_round_orange"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#분식"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/매운"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:background="@drawable/button_round_red"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#매운"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        tools:layout_editor_absoluteX="169dp" />
+
+    <Button
+        android:id="@+id/안주"
+        android:layout_width="89dp"
+        android:layout_height="28dp"
+        android:background="@drawable/button_round_green"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#안주"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/간식"
+        android:layout_width="137dp"
+        android:layout_height="34dp"
+        android:background="@drawable/button_round_pink"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#간식"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/반주"
+        android:layout_width="177dp"
+        android:layout_height="34dp"
+        android:background="@drawable/button_round_green"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#반주"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <Button
+        android:id="@+id/해장"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/button_round_red"
+        android:fontFamily="@font/maruburiregular"
+        android:text="#반주"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maruburiregular"
+        android:gravity="center"
+        android:text="어떤 해시태그 음식이 먹고싶나요?"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="146dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
