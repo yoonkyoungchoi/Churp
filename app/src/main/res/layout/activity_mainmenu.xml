@@ -7,22 +7,25 @@
     tools:context=".MainMenuActivity">
 
     <Button
-        android:id="@+id/한식"
+        android:id="@+id/korea_food"
         android:layout_width="162dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
         android:background="@drawable/button_round_orange"
         android:fontFamily="@font/maruburiregular"
         android:text="#한식"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/반주"
-        app:layout_constraintTop_toBottomOf="@+id/매운" />
+        app:layout_constraintBottom_toTopOf="@+id/alcohol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/half_alcohol"
+        app:layout_constraintTop_toBottomOf="@+id/spicy"
+        app:layout_constraintVertical_bias="0.489" />
 
     <Button
-        android:id="@+id/분식"
+        android:id="@+id/bunsik"
         android:layout_width="118dp"
         android:layout_height="60dp"
         android:layout_marginStart="14dp"
@@ -33,11 +36,11 @@
         android:text="#분식"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/해장"
-        app:layout_constraintTop_toBottomOf="@+id/반주" />
+        app:layout_constraintStart_toEndOf="@+id/clean_alcohlol"
+        app:layout_constraintTop_toBottomOf="@+id/half_alcohol" />
 
     <Button
-        android:id="@+id/매운"
+        android:id="@+id/spicy"
         android:layout_width="211dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"
@@ -48,26 +51,26 @@
         android:text="#매운"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/간식"
+        app:layout_constraintStart_toEndOf="@+id/snack"
         app:layout_constraintTop_toBottomOf="@+id/what" />
 
     <Button
-        android:id="@+id/안주"
+        android:id="@+id/alcohol"
         android:layout_width="94dp"
         android:layout_height="60dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="232dp"
         android:background="@drawable/button_round_green"
         android:fontFamily="@font/maruburiregular"
         android:text="#안주"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/분식"
-        app:layout_constraintTop_toBottomOf="@+id/한식" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@+id/bunsik" />
 
     <Button
-        android:id="@+id/간식"
+        android:id="@+id/snack"
         android:layout_width="137dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
@@ -82,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/what" />
 
     <Button
-        android:id="@+id/반주"
+        android:id="@+id/half_alcohol"
         android:layout_width="177dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
@@ -94,10 +97,10 @@
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/간식" />
+        app:layout_constraintTop_toBottomOf="@+id/snack" />
 
     <Button
-        android:id="@+id/해장"
+        android:id="@+id/clean_alcohlol"
         android:layout_width="115dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
@@ -109,7 +112,7 @@
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/반주" />
+        app:layout_constraintTop_toBottomOf="@+id/half_alcohol" />
 
     <TextView
         android:id="@+id/what"
