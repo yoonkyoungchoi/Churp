@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Food_list.Clean_alcohol_food"></activity>
+        <activity android:name=".Food_list.Korea_food" />
+        <activity android:name=".Food_list.Bunsik_food" />
+        <activity android:name=".Food_list.Half_alcohol_food" />
+        <activity android:name=".Food_list.Alcohol_food" />
+        <activity android:name=".Food_list.Half_alcohil_food" />
+        <activity android:name=".Food_list.Snack_food" />
+        <activity android:name=".Food_list.Spicy_food" />
+        <activity android:name=".Food_list.snack" />
+        <activity android:name=".Food_list.Spicy" />
+        <activity android:name=".Store_list" />
         <activity android:name=".ChoicePeopleActivity" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".MainMenuActivity" />
