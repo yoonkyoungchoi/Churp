@@ -29,8 +29,8 @@ public class CustomDialog extends Dialog {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.custom_dialog);
         imgLogo = (ImageView) findViewById(R.id.img_android);
-        Animation anim = AnimationUtils.loadAnimation(c, R.anim.loading);
-        imgLogo.setAnimation(anim);
+        Animation animm = AnimationUtils.loadAnimation(getContext(), R.anim.loading);
+        imgLogo.setAnimation(animm);
     }
     @Override
     public void show() {

@@ -6,8 +6,6 @@ import android.os.Bundle;
 
 public class Store_list extends AppCompatActivity {
 
-    ArrayList<> movieDataList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

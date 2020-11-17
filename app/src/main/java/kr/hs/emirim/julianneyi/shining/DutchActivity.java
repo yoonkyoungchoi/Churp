@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,6 +33,9 @@ public class DutchActivity extends AppCompatActivity {
         et_people_num=(EditText)findViewById(R.id.et_people_num);
         et_total_money=(EditText)findViewById(R.id.et_total_money);
         goDutch=findViewById(R.id.goDutch);
+        result=findViewById(R.id.result);
+
+        result.setVisibility(View.INVISIBLE);
 
         //final Handler timer = new Handler(); //Handler 생성
         customDialog = new CustomDialog(DutchActivity.this);
@@ -45,7 +49,7 @@ public class DutchActivity extends AppCompatActivity {
 //
 //                }, 2000); //
 
-                customDialog.show();
+                //customDialog.show();
                 ShowResult();
             }
         });
@@ -55,9 +59,10 @@ public class DutchActivity extends AppCompatActivity {
     private void ShowResult() {
         people_num = Integer.parseInt(et_people_num.getText().toString());
         total_money = Integer.parseInt(et_total_money.getText().toString());
-        customDialog.dismiss();
+        //customDialog.dismiss();
 
-        one_money=people_num/total_money;
+        one_money=total_money/people_num;
+        Log.d("one_money====>", String.valueOf(one_money));
         tv_money=findViewById(R.id.tv_money);
         tv_money.setText(one_money+"원");
 

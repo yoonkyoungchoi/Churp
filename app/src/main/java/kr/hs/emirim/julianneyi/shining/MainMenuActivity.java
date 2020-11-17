@@ -20,6 +20,7 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
        before_meal=findViewById(R.id.before_meal);
        after_meal=findViewById(R.id.after_meal);
        before_meal.setOnClickListener(this);
+        after_meal.setOnClickListener(this);
 
     }
 

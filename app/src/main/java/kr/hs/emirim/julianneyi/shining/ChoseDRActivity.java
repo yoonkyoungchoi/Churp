@@ -21,6 +21,7 @@ public class ChoseDRActivity extends AppCompatActivity implements View.OnClickLi
         random_money=findViewById(R.id.random_money);
 
         dutch_pay.setOnClickListener(this);
+        random_money.setOnClickListener(this);
     }
 
     @Override
