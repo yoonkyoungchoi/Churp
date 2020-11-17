@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findId();
         choice_people.setOnClickListener(this);
 
-
-
     }
 
     private void findId() {

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    tools:context=".MainMenuActivity">
+    tools:context=".ChoseDRActivity">
 
     <TextView
         android:id="@+id/what"
@@ -15,7 +15,7 @@
         android:layout_marginTop="150dp"
         android:fontFamily="@font/maruburiregular"
         android:gravity="center"
-        android:text="@string/main_choice"
+        android:text="메뉴를 선택해주세요"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
@@ -27,10 +27,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/before_meal"
+            android:id="@+id/dutch_pay"
             android:layout_width="200dp"
             android:layout_height="60dp"
-            android:text="@string/before"
+            android:text="@string/Dutch"
             android:background="@drawable/button_round_orange"
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/maruburiregular"
@@ -38,12 +38,12 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/after_meal"
+            android:id="@+id/random_money"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:background="@drawable/button_round_green"
             android:fontFamily="@font/maruburiregular"
-            android:text="@string/after"
+            android:text="@string/random_money"
             android:textColor="#000000"
             android:textSize="18sp" />
 

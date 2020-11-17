@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Shining</string>
+    <string name="main_choice">당신의 선택은?</string>
+    <string name="before">식사 전</string>
+    <string name="after">식사 후</string>
+    <string name="Dutch">똑똑 더치페이</string>
+    <string name="random_money">누가 돈을 낼까?</string>
+    <string name="people">총 인원수를 적어주세요</string>
+    <string name="money">총 금액을 적어주세요</string>
 </resources>
