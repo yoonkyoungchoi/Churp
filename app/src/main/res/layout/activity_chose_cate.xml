@@ -124,7 +124,7 @@
             android:text="해장은 면치기!!" />
 
             <Button
-                android:id="@+id/tteokbokki"
+                android:id="@+id/Tteokbokki"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -132,7 +132,7 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_tteokbokki"
+                android:background="@drawable/button_round_"
                 android:text="떡볶이의 정석" />
 
             <Button
@@ -148,7 +148,7 @@
                 android:text="알싸한 맛이 좋은 당신" />
 
             <Button
-                android:id="@+id/ricesnack"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -160,7 +160,7 @@
                 android:text="밥보단 간식이지!" />
 
             <Button
-                android:id="@+id/hotwater"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -172,7 +172,7 @@
                 android:text="뜨끈한 국물에 한잔 크~" />
 
             <Button
-                android:id="@+id/anju"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -180,11 +180,11 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_snack"
+                android:background="@drawable/button_round_red"
                 android:text="안주의 정석이랄까?" />
 
             <Button
-                android:id="@+id/bornkorean"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -192,11 +192,23 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_korean"
+                android:background="@drawable/button_round_red"
+                android:text="안주의 정석이랄까?" />
+
+            <Button
+                android:id="@+id/workman"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/maruburiregular"
+                android:textSize="20dp"
+                android:background="@drawable/button_round_red"
                 android:text="나는 뼛속까지 한국인!!" />
 
             <Button
-                android:id="@+id/nospicy"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -204,11 +216,11 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_nospicy"
+                android:background="@drawable/button_round_red"
                 android:text="맵찔이들을 위한 메뉴" />
 
             <Button
-                android:id="@+id/backfuter"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -216,11 +228,11 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_backfuter"
+                android:background="@drawable/button_round_red"
                 android:text="옛날음식이 그리운 당신" />
 
             <Button
-                android:id="@+id/oneeat"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -228,11 +240,11 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_sojucolor"
+                android:background="@drawable/button_round_red"
                 android:text="한입 먹고 한잔 꼴딱" />
 
             <Button
-                android:id="@+id/girl"
+                android:id="@+id/workman"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -240,7 +252,7 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_lightpink1"
+                android:background="@drawable/button_round_red"
                 android:text="여고생 인기메뉴" />
 
 

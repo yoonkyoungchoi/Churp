@@ -70,29 +70,31 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
 
     private void showResult() {
 
+        strList.clear();
+
         if(num>=2) {
-            for(int i=0; i<num; i++) {
+            for (int i = 0; i < num; i++) {
                 EditText et = (EditText) random_money_page.getChildAt(i);
                 String text = et.getText().toString();
-                if (!TextUtils.isEmpty(text)) {
-                    Log.d("test","item text : "+et.getText().toString());
+                if (text.length() != 0) {
+                    Log.d("test", "item text : " + et.getText().toString());
                     strList.add(text);
+                } else {
+                    Toast.makeText(getApplicationContext(), "빈칸을 채워주세요!", Toast.LENGTH_SHORT).show();
                 }
             }
-            Log.d("test","strList : "+strList);
-            if(strList == null) {
-                Toast.makeText(RandomMoneyActivity.this,"빈칸을 채워주세요!",Toast.LENGTH_SHORT).show();
-            } else {
-                Intent result = new Intent(RandomMoneyActivity.this,ShowRandomResultActivity.class);
+            Log.d("test", "strList : " + strList);
+            if (!(strList.size() < num)) {
+
+                Intent result = new Intent(getApplicationContext(), ShowRandomResultActivity.class);
                 //putExtra name
-                result.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP|Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                result.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 result.putExtra("num", num);
                 result.putStringArrayListExtra("strList", strList);
                 startActivity(result);
+
             }
-
         }
-
 
     }
 
@@ -114,7 +116,7 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
             num = Integer.parseInt(inputPersonEt.getText().toString());
             Log.d("test","num:"+num);
 
-            if(num>=2) {
+            if(num>=2 && num<=10) {
 
                 findViewById(R.id.randomtxt).setVisibility(View.VISIBLE);
                 findViewById(R.id.scrollView2).setVisibility(View.VISIBLE);
@@ -131,13 +133,14 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
                     et.setText("");
                     random_money_page.addView(et);
 
+                    inputPersonNumbtn.setVisibility(View.GONE);
+                    backInputbtn.setVisibility(View.VISIBLE);
                 }
             } else {
-                Toast.makeText(RandomMoneyActivity.this,"2명 이상 넣어주세요!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(RandomMoneyActivity.this,"2~10 사이의 숫자를 넣어주세요!",Toast.LENGTH_SHORT).show();
             }
 
-        inputPersonNumbtn.setVisibility(View.GONE);
-        backInputbtn.setVisibility(View.VISIBLE);
+
 
         }
     }
