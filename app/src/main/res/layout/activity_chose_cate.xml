@@ -71,7 +71,7 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_orange"
+                android:background="@drawable/button_round_sweet"
                 android:text="달짝지근의 환상조합" />
 
             <Button
@@ -83,11 +83,24 @@
                 android:layout_height="70dp"
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
-                android:background="@drawable/button_round_orange"
+                android:background="@drawable/button_round_child"
                 android:text="초딩 입맛 저격 메뉴" />
 
             <Button
-                android:id="@+id/workman"
+                android:id="@+id/Alone"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/maruburiregular"
+                android:textSize="20dp"
+                android:background="@drawable/button_round_alone"
+                android:text="혼밥러들의 저격 메뉴" />
+
+            <Button
+                android:id="@+id/cheese"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
@@ -96,22 +109,10 @@
                 android:fontFamily="@font/maruburiregular"
                 android:textSize="20dp"
                 android:background="@drawable/button_round_orange"
-                android:text="직장인들을 위한 메뉴" />
+                android:text="치즈를 사랑하는 당신" />
 
             <Button
-                android:id="@+id/workman"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_height="70dp"
-                android:fontFamily="@font/maruburiregular"
-                android:textSize="20dp"
-                android:background="@drawable/button_round_orange"
-                android:text="직장인들을 위한 메뉴" />
-
-            <Button
-            android:id="@+id/workman"
+            android:id="@+id/clean"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
@@ -119,8 +120,8 @@
             android:layout_height="70dp"
             android:fontFamily="@font/maruburiregular"
             android:textSize="20dp"
-            android:background="@drawable/button_round_red"
-            android:text="직장인들을 위한 메뉴" />
+            android:background="@drawable/button_round_clean"
+            android:text="해장은 면치기!!" />
 
             <Button
                 android:id="@+id/workman"
