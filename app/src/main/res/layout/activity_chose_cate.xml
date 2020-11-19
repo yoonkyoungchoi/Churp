@@ -87,7 +87,7 @@
                 android:text="초딩 입맛 저격 메뉴" />
 
             <Button
-                android:id="@+id/Alone"
+                android:id="@+id/alone"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                 android:text="해장은 면치기!!" />
 
             <Button
-                android:id="@+id/Tteokbokki"
+                android:id="@+id/tteokbokki"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="20dp"
