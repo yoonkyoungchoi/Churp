@@ -18,7 +18,7 @@ public class ChoseDRActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_chose_d_r);
 
         dutch_pay=findViewById(R.id.dutch_pay);
-        random_money=findViewById(R.id.random_money);
+        random_money=findViewById(R.id.random_money_page);
 
         dutch_pay.setOnClickListener(this);
         random_money.setOnClickListener(this);
@@ -30,7 +30,7 @@ public class ChoseDRActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.dutch_pay:
                 startActivity(new Intent(this, DutchActivity.class));
                 break;
-            case R.id.random_money:
+            case R.id.random_money_page:
                 startActivity(new Intent(this, RandomMoneyActivity.class));
                 break;
         }
