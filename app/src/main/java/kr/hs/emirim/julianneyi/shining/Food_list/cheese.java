@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
-public class Korea_food extends AppCompatActivity {
+public class cheese extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korea_food);
+        setContentView(R.layout.activity_cheese);
     }
 }

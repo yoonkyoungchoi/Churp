@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Food_list.Spicy_food">
+    tools:context=".Food_list.clean">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

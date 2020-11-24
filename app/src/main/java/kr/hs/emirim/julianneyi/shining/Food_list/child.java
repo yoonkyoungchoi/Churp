@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
-public class Alcohol_food extends AppCompatActivity {
+public class child extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alcohol_food);
+        setContentView(R.layout.activity_child);
     }
 }

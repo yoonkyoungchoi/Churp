@@ -9,7 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowRandomResultActivity"></activity>
+        <activity android:name=".Food_list.tteokbokki"></activity>
+        <activity android:name=".Food_list.clean" />
+        <activity android:name=".Food_list.cheese" />
+        <activity android:name=".Food_list.alone" />
+        <activity android:name=".Food_list.child" />
+        <activity android:name=".Food_list.sweet" />
+        <activity android:name=".Food_list.tosweat" />
+        <activity android:name=".Food_list.beef" />
+        <activity
+            android:name=".Food_list.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Food_list.family" />
+        <activity android:name=".Food_list.workman" />
+        <activity android:name=".ShowRandomResultActivity" />
         <activity android:name=".CustomDialog" />
         <activity android:name=".RandomMoneyActivity" />
         <activity android:name=".DutchActivity" />

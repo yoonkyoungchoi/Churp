@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
-public class Spicy_food extends AppCompatActivity {
+public class sweet extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_spicy_food);
+        setContentView(R.layout.activity_sweet);
     }
 }

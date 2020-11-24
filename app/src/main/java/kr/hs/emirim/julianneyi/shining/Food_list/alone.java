@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
-public class Half_alcohol_food extends AppCompatActivity {
+public class alone extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_half_alcohol_food);
+        setContentView(R.layout.activity_alone);
     }
 }

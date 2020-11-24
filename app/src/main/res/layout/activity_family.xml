@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Food_list.Half_alcohol_food">
+    tools:context=".Food_list.family">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
