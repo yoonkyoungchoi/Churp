@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Food_list.tteokbokki"></activity>
+        <activity android:name=".Food_list.hotwater"></activity>
+        <activity android:name=".Food_list.snack" />
+        <activity android:name=".Food_list.alssa" />
+        <activity android:name=".Food_list.tteokbokki" />
         <activity android:name=".Food_list.clean" />
         <activity android:name=".Food_list.cheese" />
         <activity android:name=".Food_list.alone" />
