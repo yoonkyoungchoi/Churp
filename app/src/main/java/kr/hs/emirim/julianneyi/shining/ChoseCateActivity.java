@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ChoseCateActivity extends AppCompatActivity {
+public class ChoseCateActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button workman;
     private Button family;
@@ -33,15 +33,13 @@ public class ChoseCateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chose_cate);
-    }
 
-    private void findId() {
         workman = findViewById(R.id.workman);
         family = findViewById(R.id.family);
         beef = findViewById(R.id.beef);
         tosweat = findViewById(R.id.tosweat);
         sweet = findViewById(R.id.sweet);
-        child = findViewById(R.id.chain);
+        child = findViewById(R.id.child);
         alone = findViewById(R.id.alone);
         cheese = findViewById(R.id.cheese);
         clean = findViewById(R.id.clean);
@@ -55,6 +53,26 @@ public class ChoseCateActivity extends AppCompatActivity {
         backfuture = findViewById(R.id.backfuture);
         oneeatonedrink = findViewById(R.id.oneatonedrink);
         girl = findViewById(R.id.girl);
+
+        workman.setOnClickListener(this);
+        family.setOnClickListener(this);
+        beef.setOnClickListener(this);
+        tosweat.setOnClickListener(this);
+        sweet.setOnClickListener(this);
+        child.setOnClickListener(this);
+        alone.setOnClickListener(this);
+        cheese.setOnClickListener(this);
+        clean.setOnClickListener(this);
+        tteokbokki.setOnClickListener(this);
+        alssa.setOnClickListener(this);
+        snack.setOnClickListener(this);
+        hotwater.setOnClickListener(this);
+        anju.setOnClickListener(this);
+        bornkorean.setOnClickListener(this);
+        nospicy.setOnClickListener(this);
+        backfuture.setOnClickListener(this);
+        oneeatonedrink.setOnClickListener(this);
+        girl.setOnClickListener(this);
     }
 
     public void onClick(View v) {

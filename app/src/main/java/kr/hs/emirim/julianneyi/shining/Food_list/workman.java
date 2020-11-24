@@ -2,7 +2,10 @@ package kr.hs.emirim.julianneyi.shining.Food_list;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
+
+import kr.hs.emirim.julianneyi.shining.R;
 
 public class workman extends AppCompatActivity {
 
