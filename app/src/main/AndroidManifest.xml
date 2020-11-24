@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Food_list.hotwater"></activity>
+        <activity android:name=".Food_list.girl"></activity>
+        <activity android:name=".Food_list.oneatonedrink" />
+        <activity android:name=".Food_list.backfuture" />
+        <activity android:name=".Food_list.nospicy" />
+        <activity android:name=".Food_list.bornkorean" />
+        <activity android:name=".Food_list.anju" />
+        <activity android:name=".Food_list.hotwater" />
         <activity android:name=".Food_list.snack" />
         <activity android:name=".Food_list.alssa" />
         <activity android:name=".Food_list.tteokbokki" />
