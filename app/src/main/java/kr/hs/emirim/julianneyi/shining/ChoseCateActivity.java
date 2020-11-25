@@ -101,73 +101,94 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
             case R.id.workman :
                 intent = new Intent(this, WorkmanActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.family :
                 intent = new Intent(this, FamilyActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.beef :
                 intent = new Intent(this, BeefActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.tosweat :
                 intent = new Intent(this, TosweatActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.child :
                 intent = new Intent(this, ChildActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.alone :
                 intent = new Intent(this, AloneActivity.class);
                 startActivity(intent);
+                break;
+
             case R.id.cheese :
                 intent = new Intent(this, CheeseActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.clean :
                 intent = new Intent(this, CleanActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.tteokbokki :
                 intent = new Intent(this, TteokbokkiActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.alssa :
                 intent = new Intent(this, AlssaActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.snack :
                 intent = new Intent(this, SnackActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.hotwater :
                 intent = new Intent(this, HotwaterActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.anju :
                 intent = new Intent(this, AnjuActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.bornkorean :
                 intent = new Intent(this, BornKoreanActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.nospicy :
                 intent = new Intent(this, NospicyActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.backfuture :
                 intent = new Intent(this, BackfutureActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.oneatonedrink :
                 intent = new Intent(this, OneatonedrinkActivity.class);
                 startActivity(intent);
+                break;
 
             case R.id.girl :
                 intent = new Intent(this, GirlActivity.class);
                 startActivity(intent);
+                break;
+            default:
+                break;
         }
     }
 }
