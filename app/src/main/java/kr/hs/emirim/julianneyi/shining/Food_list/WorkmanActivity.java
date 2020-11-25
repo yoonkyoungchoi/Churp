@@ -2,15 +2,16 @@ package kr.hs.emirim.julianneyi.shining.Food_list;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
-public class tteokbokki extends AppCompatActivity {
+public class WorkmanActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tteokbokki);
+        setContentView(R.layout.activity_workman);
     }
 }

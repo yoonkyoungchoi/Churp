@@ -7,6 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import kr.hs.emirim.julianneyi.shining.Food_list.AloneActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.AlssaActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.AnjuActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.BackfutureActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.BeefActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.BornKoreanActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.CheeseActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.ChildActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.CleanActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.FamilyActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.GirlActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.HotwaterActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.NospicyActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.OneatonedrinkActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.SnackActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.TosweatActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.TteokbokkiActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.WorkmanActivity;
+
 public class ChoseCateActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button workman;
@@ -80,74 +99,74 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
         Intent intent = null;
         switch (v.getId()) {
             case R.id.workman :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, WorkmanActivity.class);
                 startActivity(intent);
 
             case R.id.family :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, FamilyActivity.class);
                 startActivity(intent);
 
             case R.id.beef :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, BeefActivity.class);
                 startActivity(intent);
 
             case R.id.tosweat :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, TosweatActivity.class);
                 startActivity(intent);
 
             case R.id.child :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, ChildActivity.class);
                 startActivity(intent);
 
             case R.id.alone :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, AloneActivity.class);
                 startActivity(intent);
             case R.id.cheese :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, CheeseActivity.class);
                 startActivity(intent);
 
             case R.id.clean :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, CleanActivity.class);
                 startActivity(intent);
 
             case R.id.tteokbokki :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, TteokbokkiActivity.class);
                 startActivity(intent);
 
             case R.id.alssa :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, AlssaActivity.class);
                 startActivity(intent);
 
             case R.id.snack :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, SnackActivity.class);
                 startActivity(intent);
 
             case R.id.hotwater :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, HotwaterActivity.class);
                 startActivity(intent);
 
             case R.id.anju :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, AnjuActivity.class);
                 startActivity(intent);
 
             case R.id.bornkorean :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, BornKoreanActivity.class);
                 startActivity(intent);
 
             case R.id.nospicy :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, NospicyActivity.class);
                 startActivity(intent);
 
             case R.id.backfuture :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, BackfutureActivity.class);
                 startActivity(intent);
 
             case R.id.oneatonedrink :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, OneatonedrinkActivity.class);
                 startActivity(intent);
 
             case R.id.girl :
-                intent = new Intent(this, MainMenuActivity.class);
+                intent = new Intent(this, GirlActivity.class);
                 startActivity(intent);
         }
     }

@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Food_list.alone">
+    tools:context=".Food_list.AloneActivity">
 
+    <ImageView
+        android:id="@+id/kingkong_logo"
+        android:layout_width="111dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kingkong_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
