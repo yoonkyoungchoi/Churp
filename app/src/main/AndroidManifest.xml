@@ -4,12 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/app_logo"
+        android:label="츄릅"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Food_list.GirlActivity"></activity>
+        <activity android:name=".Food_list.GirlActivity"/>
         <activity android:name=".Food_list.OneatonedrinkActivity" />
         <activity android:name=".Food_list.BackfutureActivity" />
         <activity android:name=".Food_list.NospicyActivity" />
@@ -26,24 +26,13 @@
         <activity android:name=".Food_list.SweetActivity" />
         <activity android:name=".Food_list.TosweatActivity" />
         <activity android:name=".Food_list.BeefActivity" />
-        <activity
-            android:name=".Food_list.SettingsActivity"
-            android:label="@string/title_activity_settings" />
         <activity android:name=".Food_list.FamilyActivity" />
         <activity android:name=".Food_list.WorkmanActivity" />
         <activity android:name=".ShowRandomResultActivity" />
-        <activity android:name=".CustomDialog" />
         <activity android:name=".RandomMoneyActivity" />
         <activity android:name=".DutchActivity" />
         <activity android:name=".ChoseDRActivity" />
         <activity android:name=".ChoseCateActivity" />
-        <activity android:name=".Food_list.Clean_alcohol_food" />
-        <activity android:name=".Food_list.Korea_food" />
-        <activity android:name=".Food_list.Bunsik_food" />
-        <activity android:name=".Food_list.Half_alcohol_food" />
-        <activity android:name=".Food_list.Alcohol_food" />
-        <activity android:name=".Food_list.Snack_food" />
-        <activity android:name=".Food_list.Spicy_food" />
         <activity android:name=".Store_list" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".MainMenuActivity" />
