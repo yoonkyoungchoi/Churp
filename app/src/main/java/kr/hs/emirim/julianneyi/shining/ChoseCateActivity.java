@@ -22,6 +22,7 @@ import kr.hs.emirim.julianneyi.shining.Food_list.HotwaterActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.NospicyActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.OneatonedrinkActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.SnackActivity;
+import kr.hs.emirim.julianneyi.shining.Food_list.SweetActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.TosweatActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.TteokbokkiActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.WorkmanActivity;
@@ -110,6 +111,11 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
 
             case R.id.beef :
                 intent = new Intent(this, BeefActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.sweet :
+                intent = new Intent(this, SweetActivity.class);
                 startActivity(intent);
                 break;
 
