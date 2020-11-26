@@ -14,13 +14,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <Button
+            android:id="@+id/btn_back"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:background="@drawable/ic_baseline_arrow_back_24"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,11 +107,11 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alone"
+                    android:background="@drawable/button_round_lightpink1"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 매운맛 끝판왕!"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
@@ -121,11 +121,11 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alone"
+                    android:background="@drawable/button_round_lightpink1"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 분식"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
