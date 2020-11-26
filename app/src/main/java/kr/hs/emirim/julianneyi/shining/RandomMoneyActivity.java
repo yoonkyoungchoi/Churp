@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -24,6 +25,7 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
     private Button backInputbtn;
     private Button showResultbtn;
     private ArrayList<String> strList;
+    private ImageView back_btn;
     int num = 0;
 
 
@@ -37,6 +39,13 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
         inputPersonNumbtn.setOnClickListener(this);
         backInputbtn.setOnClickListener(this);
         showResultbtn.setOnClickListener(this);
+
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     private void findId() {
@@ -45,6 +54,7 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
         inputPersonNumbtn = findViewById(R.id.inputPersonNumbtn);
         backInputbtn = findViewById(R.id.backInputbtn);
         showResultbtn = findViewById(R.id.showResultbtn);
+        back_btn = findViewById(R.id.back_btn);
 
     }
 
