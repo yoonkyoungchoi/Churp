@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Food_list.AlssaActivity">
+    tools:context=".Food_list.AloneActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -54,7 +54,8 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="372dp">
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView"
@@ -103,44 +104,29 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="160dp"
+                    android:layout_width="180dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alssal"
+                    android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
-                    android:text="# 알싸한 치킨의 끝판왕!"
-                    android:textColor="#FFE820"
+                    android:text="# 알싸한 맛의 최강자들"
+                    android:textColor="#00E676"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
                 <TextView
-                    android:id="@+id/catealssa"
-                    android:layout_width="100dp"
+                    android:id="@+id/catehansik"
+                    android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alssal"
+                    android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
-                    android:text="# 간식 겸 안주"
-                    android:textColor="#FFFFFF"
-                    app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
-
-
-                <TextView
-                    android:id="@+id/catealssa2"
-                    android:layout_width="90dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="120dp"
-                    android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alssal"
-                    android:fontFamily="@font/maruburiregular"
-                    android:gravity="center"
-                    android:text="# 마늘 톡톡"
-                    android:textColor="#FFFFFF"
+                    android:text="# 간식"
+                    android:textColor="#00E676"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
@@ -168,6 +154,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_margin="10dp">
 
+
                                 <androidx.constraintlayout.widget.ConstraintLayout
                                     android:layout_width="130dp"
                                     android:layout_height="match_parent">
@@ -176,7 +163,7 @@
                                         android:id="@+id/imageView1"
                                         android:layout_width="0dp"
                                         android:layout_height="96dp"
-                                        android:src="@drawable/ganghang"
+                                        android:src="@drawable/kanghwang"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent" />
@@ -188,7 +175,7 @@
                                         android:layout_marginTop="16dp"
                                         android:fontFamily="@font/maruburiregular"
                                         android:gravity="center"
-                                        android:text="강황 닭강정\n9,000원"
+                                        android:text="마늘닭강정\n7,000원"
                                         android:textColor="#000000"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
@@ -209,6 +196,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_margin="10dp">
 
+
                                 <androidx.constraintlayout.widget.ConstraintLayout
                                     android:layout_width="130dp"
                                     android:layout_height="match_parent">
@@ -217,7 +205,7 @@
                                         android:id="@+id/imageView2"
                                         android:layout_width="0dp"
                                         android:layout_height="96dp"
-                                        android:src="@drawable/bbongdark"
+                                        android:src="@drawable/kanghwang"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent" />
@@ -229,7 +217,7 @@
                                         android:layout_marginTop="16dp"
                                         android:fontFamily="@font/maruburiregular"
                                         android:gravity="center"
-                                        android:text="뽕잎 닭강정\n7,000원"
+                                        android:text="강황닭강정\n7,000원"
                                         android:textColor="#000000"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
@@ -240,50 +228,12 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_margin="10dp">
-
-                                <androidx.constraintlayout.widget.ConstraintLayout
-                                    android:layout_width="130dp"
-                                    android:layout_height="match_parent">
-
-                                    <ImageView
-                                        android:id="@+id/imageView22"
-                                        android:layout_width="0dp"
-                                        android:layout_height="96dp"
-                                        android:src="@drawable/maeldark"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent" />
-
-                                    <TextView
-                                        android:id="@+id/textView122"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginTop="16dp"
-                                        android:fontFamily="@font/maruburiregular"
-                                        android:gravity="center"
-                                        android:text="마늘 닭강정\n7,000원"
-                                        android:textColor="#000000"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
-                                </androidx.constraintlayout.widget.ConstraintLayout>
-
-                            </androidx.cardview.widget.CardView>
-                        </LinearLayout>
-
                     </LinearLayout>
+
                 </HorizontalScrollView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -294,7 +244,7 @@
                     android:layout_height="70dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/sinsari"
+                    android:src="@drawable/mistergang_logo"
                     app:civ_border_color="#000000"
                     app:civ_border_width="2dp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -306,7 +256,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
-                    android:text="가게명 :  신사리 즉석떡볶이"
+                    android:text="가게명 :  아저씨닭강정"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView2"
                     app:layout_constraintTop_toTopOf="@+id/circleImageView2" />
@@ -317,7 +267,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
-                    android:text="주소 : 서울 관악구 신원로 40-12"
+                    android:text="주소 : 서울 관악구 관천로 45-1"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView77" />
@@ -328,22 +278,22 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
-                    android:text="전화번호 : 070-4647-0220"
+                    android:text="전화번호 : 02-865-3288"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView88" />
 
                 <TextView
                     android:id="@+id/textView100"
-                    android:layout_width="260dp"
+                    android:layout_width="220dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
                     android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
-                    android:text="# 오독오독 오징어와 김치는 환상이지!"
-                    android:textColor="#FFFFFF"
+                    android:text="# 이것이 진정한 어른의 입맛?"
+                    android:textColor="#00E676"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
 
@@ -355,8 +305,8 @@
                     android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
-                    android:text="# 분식"
-                    android:textColor="#FFFFFF"
+                    android:text="# 간식"
+                    android:textColor="#00E676"
                     app:layout_constraintStart_toEndOf="@+id/textView100"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
 
@@ -391,68 +341,26 @@
                                     android:layout_height="match_parent">
 
                                     <ImageView
-                                        android:id="@+id/imageView133"
+                                        android:id="@+id/imageView12"
                                         android:layout_width="0dp"
                                         android:layout_height="96dp"
-                                        android:src="@drawable/sinsa_ojing"
+                                        android:src="@drawable/ajosi"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent" />
 
                                     <TextView
-                                        android:id="@+id/textView113"
+                                        android:id="@+id/textView121"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="16dp"
                                         android:fontFamily="@font/maruburiregular"
                                         android:gravity="center"
-                                        android:text="오징어 불떡\n16,000원"
+                                        android:text="반반닭강정(대)\n깐풍맛, 핫매콤\n11,000원"
                                         android:textColor="#000000"
                                         app:layout_constraintEnd_toEndOf="parent"
                                         app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageView133" />
-                                </androidx.constraintlayout.widget.ConstraintLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_margin="10dp">
-
-
-                                <androidx.constraintlayout.widget.ConstraintLayout
-                                    android:layout_width="130dp"
-                                    android:layout_height="match_parent">
-
-                                    <ImageView
-                                        android:id="@+id/imageView233"
-                                        android:layout_width="0dp"
-                                        android:layout_height="96dp"
-                                        android:src="@drawable/sinsa_bokmm"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent" />
-
-                                    <TextView
-                                        android:id="@+id/textView1233"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginTop="16dp"
-                                        android:fontFamily="@font/maruburiregular"
-                                        android:gravity="center"
-                                        android:text="김치 볶음밥\n2,500원"
-                                        android:textColor="#000000"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageView233" />
+                                        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
                                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -462,7 +370,10 @@
                     </LinearLayout>
 
                 </HorizontalScrollView>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
