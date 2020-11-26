@@ -1,6 +1,7 @@
 package kr.hs.emirim.julianneyi.shining;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -94,6 +95,7 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
                 startActivity(result);
 
             }
+
         }
 
     }
@@ -116,19 +118,23 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
             num = Integer.parseInt(inputPersonEt.getText().toString());
             Log.d("test","num:"+num);
 
-            if(num>=2 && num<=10) {
+            if(num>=2) {
 
                 findViewById(R.id.randomtxt).setVisibility(View.VISIBLE);
                 findViewById(R.id.scrollView2).setVisibility(View.VISIBLE);
                 findViewById(R.id.showResultbtn).setVisibility(View.VISIBLE);
 
+                int height = (int)getResources().getDimension(R.dimen.edit_height);
                 for(int i=0; i<num; i++) {
                     final EditText et = new EditText(getApplicationContext());
                     LinearLayout.LayoutParams p =
                             new LinearLayout.
-                                    LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                                    LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, height);
+                    p.leftMargin = (int) getResources().getDimension(R.dimen.edit_left_margin);
+                    p.rightMargin = (int) getResources().getDimension(R.dimen.edit_right_margin);
+                    p.bottomMargin = (int) getResources().getDimension(R.dimen.edit_bottom_margin);
                     et.setLayoutParams(p);
-                    et.setId(12345+i);
+                    et.setBackground(ContextCompat.getDrawable(this,R.drawable.random_edittext_background));
                     Log.d("test","et id : "+et.getId());
                     et.setText("");
                     random_money_page.addView(et);
