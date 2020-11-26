@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Food_list.HotwaterActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
@@ -610,8 +611,5 @@
                 </HorizontalScrollView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
-
-
-
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
