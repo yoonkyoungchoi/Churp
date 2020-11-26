@@ -22,7 +22,6 @@ public class DutchActivity extends AppCompatActivity {
     private int total_money;
     private TextView tv_money;
     private LinearLayout result;
-    private CustomDialog customDialog;
     private int one_money;
 
     @Override
@@ -37,22 +36,13 @@ public class DutchActivity extends AppCompatActivity {
 
         result.setVisibility(View.INVISIBLE);
 
-        //final Handler timer = new Handler(); //Handler 생성
-        customDialog = new CustomDialog(DutchActivity.this);
         goDutch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                timer.postDelayed(new Runnable(){ //2초후 쓰레드를 생성하는 postDelayed 메소드
-//                    public void run(){
-//
-//                    }
-//
-//                }, 2000); //
-
-                //customDialog.show();
                 ShowResult();
             }
         });
+
 
     }
 
