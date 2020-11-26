@@ -28,11 +28,11 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:fontFamily="@font/maruburiregular"
             android:text="뜨끈한 국물에 한잔 크~"
             android:textColor="#000000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -399,7 +399,7 @@
 
                 <TextView
                     android:id="@+id/textView100"
-                    android:layout_width="260dp"
+                    android:layout_width="200dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
@@ -407,7 +407,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 크 매운맛에 취한다...."
-                    android:textColor="#850000"
+                    android:textColor="#FFFFFF"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
 
@@ -420,7 +420,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 반주"
-                    android:textColor="#831C1C"
+                    android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/textView100"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
 

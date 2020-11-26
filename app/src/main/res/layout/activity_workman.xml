@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/back_btn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="8dp"
@@ -28,11 +28,11 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:fontFamily="@font/maruburiregular"
             android:text="직장인들을 위한 메뉴"
             android:textColor="#000000"
             android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -104,7 +104,7 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="160dp"
+                    android:layout_width="170dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
@@ -126,7 +126,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 스트레스 해소"
-                    android:textColor="#76B6EA"
+                    android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
@@ -140,7 +140,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 얼큰"
-                    android:textColor="#DD0808"
+                    android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/catehansik"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
@@ -342,7 +342,7 @@
 
                 <TextView
                     android:id="@+id/textView99"
-                    android:layout_width="180dp"
+                    android:layout_width="200dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
@@ -350,7 +350,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 매운맛으로 스트레스 한방!!"
-                    android:textColor="#930303"
+                    android:textColor="#FFFFFF"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
 

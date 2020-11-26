@@ -5,21 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import kr.hs.emirim.julianneyi.shining.R;
 
 public class TosweatActivity extends AppCompatActivity {
 
-    private Button btn_back;
+    private ImageView back_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tosweat);
 
-        btn_back=findViewById(R.id.btn_back);
+        back_btn=findViewById(R.id.back_btn);
 
-        btn_back.setOnClickListener(new View.OnClickListener() {
+        back_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
