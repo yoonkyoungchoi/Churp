@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import kr.hs.emirim.julianneyi.shining.Food_list.AloneActivity;
 import kr.hs.emirim.julianneyi.shining.Food_list.AlssaActivity;
@@ -47,6 +48,7 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
     private Button backfuture;
     private Button oneeatonedrink;
     private Button girl;
+    private Button btn_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +74,7 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
         backfuture = findViewById(R.id.backfuture);
         oneeatonedrink = findViewById(R.id.oneatonedrink);
         girl = findViewById(R.id.girl);
+        btn_back = findViewById(R.id.btn_back);
 
         workman.setOnClickListener(this);
         family.setOnClickListener(this);
@@ -92,6 +95,13 @@ public class ChoseCateActivity extends AppCompatActivity implements View.OnClick
         backfuture.setOnClickListener(this);
         oneeatonedrink.setOnClickListener(this);
         girl.setOnClickListener(this);
+
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     public void onClick(View v) {

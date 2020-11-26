@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ public class DutchActivity extends AppCompatActivity {
     private TextView tv_money;
     private LinearLayout result;
     private int one_money;
+    private ImageView back_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +35,16 @@ public class DutchActivity extends AppCompatActivity {
         et_total_money=(EditText)findViewById(R.id.et_total_money);
         goDutch=findViewById(R.id.goDutch);
         result=findViewById(R.id.result);
+        back_btn=findViewById(R.id.back_btn);
 
         result.setVisibility(View.INVISIBLE);
 
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         goDutch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
