@@ -111,7 +111,7 @@
                     android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
-                    android:text="# 맵지만 중동성 쩔어! ㅠ"
+                    android:text="# 맵지만 중독성 쩔어! ㅠ"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
