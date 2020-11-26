@@ -103,11 +103,11 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="160dp"
+                    android:layout_width="200dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alone"
+                    android:background="@drawable/button_round_backfuture"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 진정한 옛날치킨 조합"
@@ -121,7 +121,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_round_alone"
+                    android:background="@drawable/button_round_backfuture"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
                     android:text="# 간식"
