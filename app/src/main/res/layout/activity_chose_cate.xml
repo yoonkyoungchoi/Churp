@@ -265,6 +265,7 @@
                 android:background="@drawable/button_round_backfuture"
                 android:fontFamily="@font/maruburiregular"
                 android:text="옛날음식이 그리운 당신"
+                android:textColor="#FFFFFF"
                 android:textSize="20dp" />
 
             <Button
