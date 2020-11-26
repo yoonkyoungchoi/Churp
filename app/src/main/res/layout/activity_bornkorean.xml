@@ -208,8 +208,10 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:layout_height="wrap_content">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView2"
@@ -225,8 +227,8 @@
 
                 <TextView
                     android:id="@+id/textView66"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="84dp"
+                    android:layout_height="23dp"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
                     android:text="가게명 :  맵당"
