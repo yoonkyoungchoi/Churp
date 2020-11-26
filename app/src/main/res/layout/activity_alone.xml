@@ -388,7 +388,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
-                    android:text="가게명 :  백암왕순대"
+                    android:text="가게명 :  백암왕순대&amp;왕냉면"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView3"
                     app:layout_constraintTop_toTopOf="@+id/circleImageView3" />
@@ -410,7 +410,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
-                    android:text="전화번호 : 0507-1404-8046"
+                    android:text="전화번호 : 02-872-0079"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView"
                     app:layout_constraintTop_toBottomOf="@+id/back_address" />
