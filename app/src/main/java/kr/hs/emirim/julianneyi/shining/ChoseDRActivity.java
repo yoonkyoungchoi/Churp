@@ -11,6 +11,7 @@ public class ChoseDRActivity extends AppCompatActivity implements View.OnClickLi
 
     private Button dutch_pay;
     private Button random_money;
+    private Button btn_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +20,17 @@ public class ChoseDRActivity extends AppCompatActivity implements View.OnClickLi
 
         dutch_pay=findViewById(R.id.dutch_pay);
         random_money=findViewById(R.id.random_money_page);
+        btn_back = findViewById(R.id.btn_back);
 
         dutch_pay.setOnClickListener(this);
         random_money.setOnClickListener(this);
+
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override

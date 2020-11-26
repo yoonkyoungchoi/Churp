@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -22,8 +23,8 @@ public class DutchActivity extends AppCompatActivity {
     private int total_money;
     private TextView tv_money;
     private LinearLayout result;
-    private CustomDialog customDialog;
     private int one_money;
+    private ImageView back_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,25 +35,23 @@ public class DutchActivity extends AppCompatActivity {
         et_total_money=(EditText)findViewById(R.id.et_total_money);
         goDutch=findViewById(R.id.goDutch);
         result=findViewById(R.id.result);
+        back_btn=findViewById(R.id.back_btn);
 
         result.setVisibility(View.INVISIBLE);
 
-        //final Handler timer = new Handler(); //Handler 생성
-        customDialog = new CustomDialog(DutchActivity.this);
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         goDutch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                timer.postDelayed(new Runnable(){ //2초후 쓰레드를 생성하는 postDelayed 메소드
-//                    public void run(){
-//
-//                    }
-//
-//                }, 2000); //
-
-                //customDialog.show();
                 ShowResult();
             }
         });
+
 
     }
 
