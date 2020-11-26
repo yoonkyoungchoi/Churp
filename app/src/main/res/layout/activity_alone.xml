@@ -54,7 +54,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="700dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/circleImageView"
@@ -103,10 +103,10 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="170dp"
+                    android:layout_width="160dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="32dp"
                     android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
@@ -120,7 +120,7 @@
                     android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="32dp"
                     android:background="@drawable/button_round_alone"
                     android:fontFamily="@font/maruburiregular"
                     android:gravity="center"
@@ -130,7 +130,6 @@
                     app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
                 <HorizontalScrollView
-                    android:id="@+id/horizontalScrollView"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="16dp"
@@ -141,23 +140,22 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_margin="10dp"
-                            app:cardElevation="10dp">
+                            android:layout_margin="10dp">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="132dp"
+                                android:layout_width="130dp"
                                 android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView2"
                                     android:layout_width="0dp"
                                     android:layout_height="96dp"
-                                    android:src="@drawable/stir_fried"
+                                    android:src="@drawable/kingkong"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -174,356 +172,6 @@
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp"
-                            app:cardElevation="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="130dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/gong"
-                                    android:layout_width="0dp"
-                                    android:layout_height="90dp"
-                                    android:src="@drawable/gongibab"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <TextView
-                                    android:id="@+id/gongtext"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="24dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="공깃밥"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/gong" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </LinearLayout>
-                </HorizontalScrollView>
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/mapdang_logo"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="24dp"
-                    android:src="@drawable/mapdang_logo"
-                    app:civ_border_color="#000000"
-                    app:civ_border_width="2dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
-
-                <TextView
-                    android:id="@+id/mapdang_txt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="가게명 :  맵당"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/mapdang_logo"
-                    app:layout_constraintTop_toTopOf="@+id/mapdang_logo" />
-
-                <TextView
-                    android:id="@+id/mapdang_address"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="주소 : 서울 관악구 신원로 40-11길"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/mapdang_logo"
-                    app:layout_constraintTop_toBottomOf="@+id/mapdang_txt" />
-
-                <TextView
-                    android:id="@+id/mapdang_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="전화번호 : 02-6404-7292"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/mapdang_logo"
-                    app:layout_constraintTop_toBottomOf="@+id/mapdang_address" />
-
-                <TextView
-                    android:id="@+id/mapbab"
-                    android:layout_width="160dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/button_round_alone"
-                    android:fontFamily="@font/maruburiregular"
-                    android:gravity="center"
-                    android:text="# 오늘만은 FLEX"
-                    android:textColor="#FFFFFF"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mapdang_logo" />
-
-                <TextView
-                    android:id="@+id/maphan"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/button_round_alone"
-                    android:fontFamily="@font/maruburiregular"
-                    android:gravity="center"
-                    android:text="# 한식"
-                    android:textColor="#FFFFFF"
-                    app:layout_constraintStart_toEndOf="@+id/mapbab"
-                    app:layout_constraintTop_toBottomOf="@+id/mapdang_logo" />
-
-                <HorizontalScrollView
-                    android:id="@+id/horizontalScrollView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mapbab">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="132dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/Galbijjim"
-                                    android:layout_width="0dp"
-                                    android:layout_height="96dp"
-                                    android:src="@drawable/mapdang_galbijjim"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <TextView
-                                    android:id="@+id/Galbijjimtxt"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="24dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="매운갈비찜(소)\n24,000원"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/Galbijjim" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="130dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/cham"
-                                    android:layout_width="0dp"
-                                    android:layout_height="96dp"
-                                    android:src="@drawable/mapdang_chamchi"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent"
-                                    app:srcCompat="@drawable/mapdang_chamchi" />
-
-                                <TextView
-                                    android:id="@+id/chamtxt"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="24dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="마요네즈참치주먹밥\n4,900원"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/cham" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                    </LinearLayout>
-                </HorizontalScrollView>
-
-                <ImageView
-                    android:id="@+id/back_logo"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="24dp"
-                    android:src="@drawable/back_logo"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
-
-                <TextView
-                    android:id="@+id/back_txt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="가게명 :  백암왕순대"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/back_logo"
-                    app:layout_constraintTop_toTopOf="@+id/back_logo" />
-
-                <TextView
-                    android:id="@+id/back_address"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="주소 : 서울 관악구 신원로 39"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/back_logo"
-                    app:layout_constraintTop_toBottomOf="@+id/back_txt" />
-
-                <TextView
-                    android:id="@+id/back_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:fontFamily="@font/maruburiregular"
-                    android:text="전화번호 : 02-872-0079"
-                    android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/back_logo"
-                    app:layout_constraintTop_toBottomOf="@+id/back_address" />
-
-                <TextView
-                    android:id="@+id/backsun"
-                    android:layout_width="160dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/button_round_alone"
-                    android:fontFamily="@font/maruburiregular"
-                    android:gravity="center"
-                    android:text="# 이건 말이 필요 없지"
-                    android:textColor="#FFFFFF"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/back_logo" />
-
-                <TextView
-                    android:id="@+id/backsuntxt"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/button_round_alone"
-                    android:fontFamily="@font/maruburiregular"
-                    android:gravity="center"
-                    android:text="# 한식"
-                    android:textColor="#FFFFFF"
-                    app:layout_constraintStart_toEndOf="@+id/mapbab"
-                    app:layout_constraintTop_toBottomOf="@+id/back_logo" />
-
-                <HorizontalScrollView
-                    android:id="@+id/horizontalScrollView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_marginTop="16dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/backsun">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="132dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/sundaeguk"
-                                    android:layout_width="0dp"
-                                    android:layout_height="96dp"
-                                    android:src="@drawable/sundaeguk"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <TextView
-                                    android:id="@+id/sundaeguktxt"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="24dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="순댓국\n5,000원"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/sundaeguk" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="130dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/sundaeguk_pork"
-                                    android:layout_width="0dp"
-                                    android:layout_height="96dp"
-                                    android:src="@drawable/sundaesuyuk_pork"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <TextView
-                                    android:id="@+id/sundaeguk_pork_txt"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="24dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="수육\n10,000원"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/sundaeguk_pork" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                         </androidx.cardview.widget.CardView>
