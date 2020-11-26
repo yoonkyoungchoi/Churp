@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Shining</string>
+    <string name="main_choice">당신의 선택은?</string>
+    <string name="before">식사 전</string>
+    <string name="after">식사 후</string>
+    <string name="Dutch">똑똑 더치페이</string>
+    <string name="random_money">누가 돈을 낼까?</string>
+    <string name="people">총 인원수를 적어주세요</string>
+    <string name="money">총 금액을 적어주세요</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".ChoseDRActivity">
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/maruburiregular"
+        android:gravity="center"
+        android:text="메뉴를 선택해주세요"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="180dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/dutch_pay"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="@string/Dutch"
+            android:background="@drawable/button_round_orange"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/maruburiregular"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/random_money_page"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_round_green"
+            android:fontFamily="@font/maruburiregular"
+            android:text="@string/random_money"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
