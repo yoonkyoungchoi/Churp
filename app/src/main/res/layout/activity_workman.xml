@@ -319,7 +319,7 @@
                     app:layout_constraintTop_toTopOf="@+id/circleImageView2" />
 
                 <TextView
-                    android:id="@+id/textView77"
+                    android:id="@+id/textView77645"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -338,7 +338,7 @@
                     android:text="전화번호 : 0507-1304-7292"
                     android:textColor="#000000"
                     app:layout_constraintStart_toEndOf="@+id/circleImageView2"
-                    app:layout_constraintTop_toBottomOf="@+id/textView77" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView77645" />
 
                 <TextView
                     android:id="@+id/textView99"
@@ -491,7 +491,7 @@
                 android:layout_height="389dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/circleImageView"
+                    android:id="@+id/circleImageViewq"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_marginStart="16dp"
@@ -503,40 +503,40 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/textView6765"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
                     android:text="가게명 :  백암왕순대 왕냉면"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
-                    app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewq"
+                    app:layout_constraintTop_toTopOf="@+id/circleImageViewq" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textView776"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
                     android:text="주소 : 서울 관악구 신원로 39"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
-                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewq"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6765" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView876"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:fontFamily="@font/maruburiregular"
                     android:text="전화번호 :02-876-8788"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
-                    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewq"
+                    app:layout_constraintTop_toBottomOf="@+id/textView776" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView5469"
                     android:layout_width="160dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
@@ -547,10 +547,10 @@
                     android:text="# 술이 꼴딱 꼴딱"
                     android:textColor="#07550A"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageViewq" />
 
                 <TextView
-                    android:id="@+id/catehansik"
+                    android:id="@+id/catehansikkkkkkk"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="8dp"
@@ -560,8 +560,8 @@
                     android:gravity="center"
                     android:text="# 반주"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                    app:layout_constraintStart_toEndOf="@+id/textView5469"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageViewq" />
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
@@ -569,7 +569,7 @@
                     android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView9">
+                    app:layout_constraintTop_toBottomOf="@+id/textView5469">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -753,7 +753,7 @@
                 android:layout_height="389dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/circleImageView"
+                    android:id="@+id/circleImageViewgf"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_marginStart="16dp"
@@ -772,8 +772,8 @@
                     android:fontFamily="@font/maruburiregular"
                     android:text="가게명 :  고모네 정육식당"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
-                    app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewgf"
+                    app:layout_constraintTop_toTopOf="@+id/circleImageViewgf" />
 
                 <TextView
                     android:id="@+id/textView77"
@@ -783,7 +783,7 @@
                     android:fontFamily="@font/maruburiregular"
                     android:text="주소 : 서울 관악구 신원로 39"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewgf"
                     app:layout_constraintTop_toBottomOf="@+id/textView6767" />
 
                 <TextView
@@ -794,11 +794,11 @@
                     android:fontFamily="@font/maruburiregular"
                     android:text="전화번호 :02-876-8788"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
+                    app:layout_constraintStart_toEndOf="@+id/circleImageViewgf"
                     app:layout_constraintTop_toBottomOf="@+id/textView77" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView9gf"
                     android:layout_width="160dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="16dp"
@@ -809,10 +809,10 @@
                     android:text="# 크 신선함 느껴진다!"
                     android:textColor="#07550A"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageViewgf" />
 
                 <TextView
-                    android:id="@+id/catehansik"
+                    android:id="@+id/catehansikgfgf"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="8dp"
@@ -822,8 +822,8 @@
                     android:gravity="center"
                     android:text="# 한식"
                     android:textColor="#000000"
-                    app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                    app:layout_constraintStart_toEndOf="@+id/textView9gf"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageViewgf" />
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
@@ -831,7 +831,7 @@
                     android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView9">
+                    app:layout_constraintTop_toBottomOf="@+id/textView9gf">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -905,39 +905,6 @@
                             </androidx.constraintlayout.widget.ConstraintLayout>
                         </androidx.cardview.widget.CardView>
 
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_margin="10dp">
-
-                            <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="130dp"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imageView222222"
-                                    android:layout_width="0dp"
-                                    android:layout_height="96dp"
-                                    android:src="@drawable/nangman"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <TextView
-                                    android:id="@+id/textView1111111"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="16dp"
-                                    android:fontFamily="@font/maruburiregular"
-                                    android:gravity="center"
-                                    android:text="왕물냉면\n4,500원"
-                                    android:textColor="#000000"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imageView222222" />
-                            </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
