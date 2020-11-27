@@ -37,7 +37,7 @@
         android:id="@+id/choicebtn"
         android:layout_width="221dp"
         android:layout_height="52dp"
-        android:background="@drawable/button_round_maincolor"
+        android:background="#DDC5A0"
         android:gravity="center"
         android:text="시작하기"
         app:layout_constraintBottom_toBottomOf="parent"
