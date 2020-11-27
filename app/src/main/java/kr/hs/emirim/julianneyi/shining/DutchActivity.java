@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -45,14 +46,17 @@ public class DutchActivity extends AppCompatActivity {
                 finish();
             }
         });
-        goDutch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ShowResult();
-            }
-        });
 
-
+            goDutch.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(et_people_num.getText().length()!=0 && et_total_money.getText().length()!=0){
+                        ShowResult();
+                    }else{
+                        Toast.makeText(getApplicationContext(), "모두 다 입력해주세요.", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
     }
 
     private void ShowResult() {
