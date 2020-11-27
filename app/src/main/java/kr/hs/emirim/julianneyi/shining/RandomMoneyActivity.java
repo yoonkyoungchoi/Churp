@@ -125,8 +125,12 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
     }
 
     private void input() {
+
+        if(!TextUtils.isEmpty(inputPersonEt.getText().toString())) {
             num = Integer.parseInt(inputPersonEt.getText().toString());
+            String num_txt = inputPersonEt.getText().toString();
             Log.d("test","num:"+num);
+
 
             if(num>=2) {
 
@@ -155,8 +159,9 @@ public class RandomMoneyActivity extends AppCompatActivity implements View.OnCli
             } else {
                 Toast.makeText(RandomMoneyActivity.this,"2~10 사이의 숫자를 넣어주세요!",Toast.LENGTH_SHORT).show();
             }
-
-
+        } else {
+            Toast.makeText(RandomMoneyActivity.this,"인원수를 입력해주세요!",Toast.LENGTH_SHORT).show();
+        }
 
         }
     }
